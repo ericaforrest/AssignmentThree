@@ -1,0 +1,655 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "yellow",
+      "purple",
+      "green",
+      "default",
+      "black",
+      "blue",
+      "cyan",
+      "red"
+    ],
+    "version": "2.21",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": "#87cefa"
+    }
+  },
+  "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Assignment_3_EF",
+  "subtitle": "with ArcGIS Web AppBuilder",
+  "keepAppState": true,
+  "logo": "images/app-logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.21",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_Scalebar_Widget_2",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_Search_Widget_3",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_Coordinate_Widget_4",
+        "name": "Coordinate"
+      },
+      {
+        "position": {
+          "left": 55,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_5",
+        "name": "eSearch",
+        "version": "2.21.1",
+        "closeable": true,
+        "uri": "widgets/eSearch/Widget",
+        "config": "configs/eSearch/config__5.json"
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_6",
+        "name": "About",
+        "label": "About this Map",
+        "version": "2.21",
+        "closeable": true,
+        "uri": "widgets/About/Widget",
+        "config": "configs/About/config__6.json"
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_7",
+        "name": "Measurement",
+        "version": "2.21",
+        "closeable": true,
+        "uri": "widgets/Measurement/Widget",
+        "config": "configs/Measurement/config__7.json"
+      },
+      {
+        "position": {
+          "left": 205,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_8",
+        "name": "Print",
+        "version": "2.21",
+        "closeable": true,
+        "uri": "widgets/Print/Widget",
+        "config": "configs/Print/config__8.json"
+      },
+      {
+        "position": {
+          "left": 255,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_9"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "bottom": 0,
+          "right": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_OverviewMap_Widget_10",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_HomeButton_Widget_11",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_MyLocation_Widget_12",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.21",
+        "id": "widgets_AttributeTable_Widget_13",
+        "name": "AttributeTable"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.21",
+        "id": "widgets_Splash_Widget_14",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 190,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "id": "widgets_ExtentNavigate_Widget_16",
+        "name": "ExtentNavigate",
+        "version": "2.21"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "top": 150,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.21",
+        "id": "widgets_FullScreen_Widget_17",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "cf5e1f6c0f9f497986af0ffe0b445088",
+    "mapOptions": {
+      "extent": {
+        "xmin": -8860557.318842921,
+        "ymin": 5407206.609721535,
+        "xmax": -8817141.086777002,
+        "ymax": 5430940.30700405,
+        "spatialReference": {
+          "wkid": 102100,
+          "latestWkid": 3857
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.21",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 0
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.21",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 1
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": {
+        "widgets/Scalebar/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 40
+          },
+          "version": "1.4"
+        },
+        "widgets/Coordinate/Widget": {
+          "position": {
+            "left": 7,
+            "bottom": 17
+          },
+          "version": "1.4"
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.21",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~_5~0": {
+        "id": "widget~_5~0",
+        "type": "Features",
+        "label": "Zoning",
+        "dataSchema": {
+          "geometryType": "esriGeometryPolygon",
+          "fields": [
+            {
+              "name": "OBJECTID_1",
+              "type": "esriFieldTypeOID",
+              "alias": "OBJECTID_1",
+              "sqlType": "sqlTypeOther",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "OBJECTID",
+              "type": "esriFieldTypeInteger",
+              "alias": "OBJECTID",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "GEN_ZONE",
+              "type": "esriFieldTypeInteger",
+              "alias": "GEN_ZONE",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ZN_ZONE",
+              "type": "esriFieldTypeString",
+              "alias": "ZN_ZONE",
+              "sqlType": "sqlTypeOther",
+              "length": 15,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ZN_HOLDING",
+              "type": "esriFieldTypeString",
+              "alias": "ZN_HOLDING",
+              "sqlType": "sqlTypeOther",
+              "length": 1,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "HOLDING_ID",
+              "type": "esriFieldTypeInteger",
+              "alias": "HOLDING_ID",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "FRONTAGE",
+              "type": "esriFieldTypeDouble",
+              "alias": "FRONTAGE",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ZN_AREA",
+              "type": "esriFieldTypeInteger",
+              "alias": "ZN_AREA",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "UNITS",
+              "type": "esriFieldTypeInteger",
+              "alias": "UNITS",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "DENSITY",
+              "type": "esriFieldTypeDouble",
+              "alias": "DENSITY",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "COVERAGE",
+              "type": "esriFieldTypeDouble",
+              "alias": "COVERAGE",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "FSI_TOTAL",
+              "type": "esriFieldTypeDouble",
+              "alias": "FSI_TOTAL",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "PRCNT_COMM",
+              "type": "esriFieldTypeDouble",
+              "alias": "PRCNT_COMM",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "PRCNT_RES",
+              "type": "esriFieldTypeDouble",
+              "alias": "PRCNT_RES",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "PRCNT_EMMP",
+              "type": "esriFieldTypeDouble",
+              "alias": "PRCNT_EMMP",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "PRCNT_OFFC",
+              "type": "esriFieldTypeDouble",
+              "alias": "PRCNT_OFFC",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ZN_EXCPTN",
+              "type": "esriFieldTypeString",
+              "alias": "ZN_EXCPTN",
+              "sqlType": "sqlTypeOther",
+              "length": 1,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "EXCPTN_NO",
+              "type": "esriFieldTypeInteger",
+              "alias": "EXCPTN_NO",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "STAND_SET",
+              "type": "esriFieldTypeInteger",
+              "alias": "STAND_SET",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ZN_STATUS",
+              "type": "esriFieldTypeInteger",
+              "alias": "ZN_STATUS",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ZN_STRING",
+              "type": "esriFieldTypeString",
+              "alias": "ZN_STRING",
+              "sqlType": "sqlTypeOther",
+              "length": 254,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "AREA_UNITS",
+              "type": "esriFieldTypeDouble",
+              "alias": "AREA_UNITS",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ZBL_CHAPTR",
+              "type": "esriFieldTypeString",
+              "alias": "ZBL_CHAPTR",
+              "sqlType": "sqlTypeOther",
+              "length": 60,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ZBL_SECTIO",
+              "type": "esriFieldTypeString",
+              "alias": "ZBL_SECTIO",
+              "sqlType": "sqlTypeOther",
+              "length": 60,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ZBL_EXCPTN",
+              "type": "esriFieldTypeString",
+              "alias": "ZBL_EXCPTN",
+              "sqlType": "sqlTypeOther",
+              "length": 60,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "SHAPE_Leng",
+              "type": "esriFieldTypeDouble",
+              "alias": "SHAPE_Leng",
+              "sqlType": "sqlTypeOther",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Shape__Area",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape__Area",
+              "sqlType": "sqlTypeDouble",
+              "nullable": true,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Shape__Length",
+              "type": "esriFieldTypeDouble",
+              "alias": "Shape__Length",
+              "sqlType": "sqlTypeDouble",
+              "nullable": true,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            }
+          ],
+          "displayField": "OBJECTID",
+          "objectIdField": {
+            "name": "OBJECTID_1",
+            "type": "esriFieldTypeOID",
+            "alias": "OBJECTID_1",
+            "sqlType": "sqlTypeOther",
+            "nullable": false,
+            "editable": false,
+            "domain": null,
+            "defaultValue": null
+          },
+          "typeIdField": "ZN_ZONE"
+        }
+      }
+    },
+    "settings": {}
+  }
+}
